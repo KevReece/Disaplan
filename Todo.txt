@@ -1,0 +1,19 @@
+User Epic:
+
+Web Skeleton
+e2e test local
+create aws account
+deploy Web
+e2e test prod
+bootstrap
+
+CoreAPI skeleton
+deploy coreapi
+get user from coreapi
+userapi skeleton
+get user from userapi
+logging
+userapi db
+create new user
+reactjs
+edit user
