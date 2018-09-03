@@ -1,6 +1,24 @@
 Disaplan
 ========
 
+First Time Setup
+----------------
+
+Add Disaplan IIS Website
+- Hostname:Disaplan.localhost
+- PhysicalPath:C:\Projects\Disaplan\WebApp\WebApp
+
+Local Run
+---------
+
+Run in Visual Studio; or build and browse to Disaplan.localhost
+
+Local Run Tests
+---------------
+
+Install Visual Studio Specflow extension
+Run in Visual Studio
+
 Proposal
 --------
 Fitness training plan app/site.
