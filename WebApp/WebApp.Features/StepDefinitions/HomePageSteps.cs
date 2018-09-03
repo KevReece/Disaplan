@@ -1,4 +1,4 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using Disaplan.WebApp.Features.Pages;
 using TechTalk.SpecFlow;
 
 namespace Disaplan.WebApp.Features.StepDefinitions
@@ -6,16 +6,22 @@ namespace Disaplan.WebApp.Features.StepDefinitions
     [Binding]
     public sealed class HomePageSteps
     {
+        private readonly HomePage homePage;
+
+        public HomePageSteps(HomePage homePage)
+        {
+            this.homePage = homePage;
+        }
+
         [Given(@"I am on the home page")]
         public void GivenIAmOnTheHomePage()
         {
-            Assert.Fail();
         }
 
         [Then(@"I should see the homepage")]
         public void ThenIShouldSeeTheHomepage()
         {
-            Assert.Fail();
+            homePage.AssertIsDisplayed();
         }
     }
 }
