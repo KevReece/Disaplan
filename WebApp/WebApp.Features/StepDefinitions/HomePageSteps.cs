@@ -1,7 +1,7 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using TechTalk.SpecFlow;
 
-namespace WebApp.Features.StepDefinitions
+namespace Disaplan.WebApp.Features.StepDefinitions
 {
     [Binding]
     public sealed class HomePageSteps
