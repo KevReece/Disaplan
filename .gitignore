@@ -4,3 +4,4 @@
 */*/obj/**
 *.user
 */.vs/**
+WebApp/WebApp.Features/**/*.feature.cs
