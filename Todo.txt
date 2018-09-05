@@ -1,11 +1,9 @@
 User Epic:
 
-Web Skeleton
-e2e test local
-create aws account
-deploy Web
-e2e test prod
-bootstrap
+create aws account - (spin up/test online)
+deploy Web - (manual deploy/ps deploy)
+e2e test prod - (manual configure/cmd run/configure env in cmd)
+bootstrap - (find free mvc skins/apply one/deploy/high res image)
 
 CoreAPI skeleton
 deploy coreapi

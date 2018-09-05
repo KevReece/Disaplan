@@ -4,6 +4,9 @@ Disaplan
 First Time Setup
 ----------------
 
+Powershell 5.1 (Windows Management Framework 5.1/`$PSVersionTable.PSVersion`/Always as admin) 
+- `Install-Module -Name AzureRM` (installs nuget first)
+
 Add Disaplan IIS Website
 - Hostname:Disaplan.localhost
 - PhysicalPath:C:\Projects\Disaplan\WebApp\WebApp
@@ -18,6 +21,12 @@ Local Run Tests
 
 Install Visual Studio Specflow extension
 Run in Visual Studio
+
+Azure Manual Setup
+------------------
+
+Create account
+Create Web App (EuropeWest)
 
 Proposal
 --------
@@ -34,7 +43,7 @@ Technologies
 ------------
 MVC.Net
 WebApi
-AWS
+Azure
 ReactJs
 Ionic
 EntityFramework
