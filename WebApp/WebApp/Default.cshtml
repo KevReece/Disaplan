@@ -2,35 +2,298 @@
     Page.Title = "Home";
 }
 
-@section featured {
-<section class="featured">
-    <div class="content-wrapper">
-        <hgroup class="title">
-            <h1 id="HomePageTitle">Disaplan.</h1>
-            <h2><strong>Discipline</strong> and <strong>Planning</strong> realizes your dreams.</h2>
-        </hgroup>
-        <p>
-            Create training plans and focus your training here.
-        </p>
+  <section id="intro">
+    <div class="intro-container">
+      <div id="introCarousel" class="carousel  slide carousel-fade" data-ride="carousel">
+
+        <ol class="carousel-indicators"></ol>
+
+        <div class="carousel-inner" role="listbox">
+
+          <div class="carousel-item active">
+            <div class="carousel-background"><img src="img/intro-carousel/1.jpg" alt=""></div>
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2><strong>Discipline</strong> enables growth.</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <a href="~/Account/Register" class="btn-get-started scrollto">Get Started</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="carousel-background"><img src="img/intro-carousel/2.jpg" alt=""></div>
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2><strong>Planning</strong> optimizes your gains.</h2>
+                <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut.</p>
+                <a href="~/Account/Register" class="btn-get-started scrollto">Get Started</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="carousel-background"><img src="img/intro-carousel/3.jpg" alt=""></div>
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2><strong>Discipline</strong> and <strong>Planning</strong> realizes your dreams.</h2>
+                <p>Beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt omnis iste natus error sit voluptatem accusantium.</p>
+                <a href="~/Account/Register" class="btn-get-started scrollto">Get Started</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <a class="carousel-control-prev" href="#introCarousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon ion-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+
+        <a class="carousel-control-next" href="#introCarousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon ion-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+
+      </div>
     </div>
-</section>
-}
+  </section>
 
-<h3>Your steps to success:</h3>
+    <section id="featured-services">
+      <div class="container">
+        <div class="row">
 
-<ol class="round">
-    <li class="one">
-        <h5>Plan</h5>
-        Quickly and simply build and develop your personalized training plan.
-    </li>
+          <div class="col-lg-4 box">
+            <i class="ion-ios-bookmarks-outline"></i>
+            <h4 class="title"><a href="~/Account/Register">Plan</a></h4>
+            <p class="description">Quickly and simply build and develop your personalized training plan.</p>
+          </div>
 
-    <li class="two">
-        <h5>Train</h5>
-        Track your progress, set yourself goals, then reap the rewards.
-    </li>
+          <div class="col-lg-4 box box-bg">
+            <i class="ion-ios-stopwatch-outline"></i>
+            <h4 class="title"><a href="~/Account/Register">Train</a></h4>
+            <p class="description">Track your progress, set yourself goals, then reap the rewards.</p>
+          </div>
 
-    <li class="three">
-        <h5>Share</h5>
-        Together we're stronger, faster and more disciplined.
-    </li>
-</ol>
+          <div class="col-lg-4 box">
+            <i class="ion-ios-heart-outline"></i>
+            <h4 class="title"><a href="~/Account/Register">Share</a></h4>
+            <p class="description">Together we're stronger, faster and more disciplined.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    
+    <section id="about">
+      <div class="container">
+
+        <header class="section-header">
+          <h3>About Us</h3>
+          <p>We aim for a better solution to making gains from training hard.</p>
+        </header>
+
+        <div class="row about-cols">
+
+          <div class="col-md-4 wow fadeInUp">
+            <div class="about-col">
+              <div class="img">
+                <img src="img/about-mission.jpg" alt="" class="img-fluid">
+                <div class="icon"><i class="ion-ios-speedometer-outline"></i></div>
+              </div>
+              <h2 class="title"><a href="~/Account/Register">Our Mission</a></h2>
+              <p>
+                To share free understandable training plans, forged in the fire of the real world, flexible enough to survive dry periods, but powerful enough to deliver epic gains.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="about-col">
+              <div class="img">
+                <img src="img/about-plan.jpg" alt="" class="img-fluid">
+                <div class="icon"><i class="ion-ios-list-outline"></i></div>
+              </div>
+              <h2 class="title"><a href="~/Account/Register">Our Plan</a></h2>
+              <p>
+                Share user generated training plans, community defined exercises, track training process, and provide rich training reports.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-4 wow fadeInUp" data-wow-delay="0.2s">
+            <div class="about-col">
+              <div class="img">
+                <img src="img/about-vision.jpg" alt="" class="img-fluid">
+                <div class="icon"><i class="ion-ios-eye-outline"></i></div>
+              </div>
+              <h2 class="title"><a href="~/Account/Register">Our Vision</a></h2>
+              <p>
+                A huge community of casual and dedicated users, all getting the content they need, at the level they need, to maximise their training.
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+    
+    <section id="services">
+      <div class="container">
+
+        <header class="section-header wow fadeInUp">
+          <h3>Services</h3>
+          <p>These are services available to our users.</p>
+        </header>
+
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
+            <div class="icon"><i class="ion-ios-analytics-outline"></i></div>
+            <h4 class="title"><a href="">Training plan discovery</a></h4>
+            <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+          </div>
+          <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
+            <div class="icon"><i class="ion-ios-bookmarks-outline"></i></div>
+            <h4 class="title"><a href="">Excercise wiki</a></h4>
+            <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
+          </div>
+          <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
+            <div class="icon"><i class="ion-ios-paper-outline"></i></div>
+            <h4 class="title"><a href="">Training tracking</a></h4>
+            <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+          </div>
+          <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
+            <div class="icon"><i class="ion-ios-speedometer-outline"></i></div>
+            <h4 class="title"><a href="">Plan editing</a></h4>
+            <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+          </div>
+          <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
+            <div class="icon"><i class="ion-ios-barcode-outline"></i></div>
+            <h4 class="title"><a href="">Tracking reports</a></h4>
+            <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
+          </div>
+          <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
+            <div class="icon"><i class="ion-ios-people-outline"></i></div>
+            <h4 class="title"><a href="">Training guides</a></h4>
+            <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+    
+    <section id="call-to-action" class="wow fadeIn">
+      <div class="container text-center">
+        <h3>Join now for free!</h3>
+        <p> It's free to join and you can be ready to focus your training within minutes.</p>
+        <a class="cta-btn" href="~/Account/Register">Join</a>
+      </div>
+    </section>
+    
+    <section id="skills">
+      <div class="container">
+
+        <header class="section-header">
+          <h3>Our Results</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip</p>
+        </header>
+
+        <div class="skills-content">
+
+          <div class="progress">
+            <div class="progress-bar bg-success" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+              <span class="skill">Average user rating <i class="val">100%</i></span>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+    
+    
+    <section id="facts"  class="wow fadeIn">
+      <div class="container">
+
+        <header class="section-header">
+          <h3>Facts</h3>
+          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+        </header>
+
+        <div class="row counters">
+
+  		  <div class="col-lg-3 col-6 text-center">
+            <span data-toggle="counter-up">1</span>
+            <p>Users</p>
+          </div>
+
+          <div class="col-lg-3 col-6 text-center">
+            <span data-toggle="counter-up">0</span>
+            <p>Plans</p>
+          </div>
+
+          <div class="col-lg-3 col-6 text-center">
+            <span data-toggle="counter-up">0</span>
+            <p>Exercises</p>
+          </div>
+
+      </div>
+    </section>
+    
+    <section id="testimonials" class="section-bg wow fadeInUp">
+      <div class="container">
+
+        <header class="section-header">
+          <h3>Testimonials</h3>
+        </header>
+
+        <div class="owl-carousel testimonials-carousel">
+
+          <div class="testimonial-item">
+            <img src="img/testimonial-1.jpg" class="testimonial-img" alt="">
+            <h3>Kevin Reece</h3>
+            <h4>Developer</h4>
+            <p>
+              <img src="img/quote-sign-left.png" class="quote-sign-left" alt="">
+                It's great! And I should know!
+              <img src="img/quote-sign-right.png" class="quote-sign-right" alt="">
+            </p>
+          </div>
+
+          <div class="testimonial-item">
+            <img src="img/testimonial-1.jpg" class="testimonial-img" alt="">
+            <h3>Kevin Reece</h3>
+            <h4>Developer</h4>
+            <p>
+              <img src="img/quote-sign-left.png" class="quote-sign-left" alt="">
+              Seriously it's great!
+              <img src="img/quote-sign-right.png" class="quote-sign-right" alt="">
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+  
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+    
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/superfish/hoverIntent.js"></script>
+  <script src="lib/superfish/superfish.min.js"></script>
+  <script src="lib/wow/wow.min.js"></script>
+  <script src="lib/waypoints/waypoints.min.js"></script>
+  <script src="lib/counterup/counterup.min.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/isotope/isotope.pkgd.min.js"></script>
+  <script src="lib/lightbox/js/lightbox.min.js"></script>
+  <script src="lib/touchSwipe/jquery.touchSwipe.min.js"></script>
+  <script src="lib/touchSwipe/jquery.touchSwipe.min.js"></script>
+
+  <script src="js/main.js"></script>

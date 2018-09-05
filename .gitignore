@@ -5,3 +5,4 @@
 *.user
 */.vs/**
 WebApp/WebApp.Features/**/*.feature.cs
+**/Thumbs.db
