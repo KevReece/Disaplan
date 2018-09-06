@@ -14,7 +14,7 @@ namespace Disaplan.WebApp.Features.Pages
             this.testContext = testContext;
         }
 
-        private IWebElement FindTitle => testContext.Driver.FindElement(By.Id("HomePageTitle"));
+        private IWebElement FindIntroCarousel => testContext.Driver.FindElement(By.Id("intro"));
 
         public void GoTo()
         {
@@ -23,7 +23,7 @@ namespace Disaplan.WebApp.Features.Pages
         
         public void AssertIsDisplayed()
         {
-            FindTitle.Displayed.Should().BeTrue();
+            FindIntroCarousel.Displayed.Should().BeTrue();
         }
         
         public static bool IsDisplayed(Func<IWebElement> elementFinder)
