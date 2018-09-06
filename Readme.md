@@ -26,7 +26,8 @@ Azure Manual Setup
 ------------------
 
 Create account
-Create Web App (EuropeWest)
+Create WebApp (EuropeWest)
+Setup deployment from GitHup to WebApp
 
 Proposal
 --------
