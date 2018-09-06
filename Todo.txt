@@ -1,6 +1,6 @@
 User Epic:
 
-e2e test prod - (manual configure/cmd run/configure env in cmd)
+e2e test prod - (cmd run/configure env in cmd)
 bootstrap - (clear lorum ibsum/replace images)
 CoreAPI - (skeleton/deploy/user endpoint/use from web/lockdown access)
 
