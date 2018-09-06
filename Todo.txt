@@ -1,17 +1,12 @@
 User Epic:
 
-create aws account - (spin up/test online)
-deploy Web - (manual deploy/ps deploy)
+deploy Web - (include images/write steps in readme)
 e2e test prod - (manual configure/cmd run/configure env in cmd)
-bootstrap - (find free mvc skins/apply one/deploy/high res image)
+bootstrap - (clear lorum ibsum/replace images)
+CoreAPI - (skeleton/deploy/user endpoint/use from web/lockdown access)
 
-CoreAPI skeleton
-deploy coreapi
-get user from coreapi
-userapi skeleton
-get user from userapi
-logging
-userapi db
+logging - (local for web/prod/copy to shared public location/same for core)
+UserAPI - (skeleton/deploy/user endpoint/use from coreapi/create db/use db)
 create new user
 reactjs
 edit user
