@@ -26,7 +26,8 @@ Azure Manual Setup
 ------------------
 
 Create account
-Create WebApp (EuropeWest)
+Register subscription ResourceProvider 'Microsoft.Web' (this may only have been required due to an Microsoft datacentre outage)
+Create WebApp Resource (called 'Disaplan', in EuropeWest, with ResourceGroup 'Disaplan-WebApp')
 Setup deployment from GitHup to WebApp
 
 Proposal
