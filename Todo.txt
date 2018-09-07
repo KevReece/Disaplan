@@ -1,7 +1,7 @@
 User Epic:
 
-bootstrap - (clear lorum ibsum/replace images)
-CoreAPI - (skeleton/deploy/user endpoint/use from web/lockdown access)
+bootstrap - (replace images)
+CoreAPI - (deploy/use from web/lockdown access)
 
 logging - (local for web/prod/copy to shared public location/same for core)
 UserAPI - (skeleton/deploy/user endpoint/use from coreapi/create db/use db)
