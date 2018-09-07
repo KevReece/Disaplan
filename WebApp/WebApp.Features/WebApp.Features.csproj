@@ -92,6 +92,7 @@
     <Compile Include="TestContext.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="App.prod.config" />
     <None Include="App.config" />
     <None Include="Specs\HomePage.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>

@@ -11,6 +11,8 @@ Add Disaplan IIS Website
 - Hostname:Disaplan.localhost
 - PhysicalPath:C:\Projects\Disaplan\WebApp\WebApp
 
+Install NUnit and add 'nunit3-console.exe' folder to PATH
+
 Local Run
 ---------
 
