@@ -31,10 +31,17 @@ Run in Visual Studio
 Azure Manual Setup
 ------------------
 
-Create account
+Create azure account
+
 Register subscription ResourceProvider 'Microsoft.Web' (this may only have been required due to an Microsoft datacentre outage)
+
 Create WebApp Resource (called 'Disaplan', in EuropeWest, with ResourceGroup 'Disaplan-WebApp')
-Setup deployment from GitHup to WebApp
+- add WebApp resource app-setting of PROJECT=WebApp\WebApp\WebApp.csproj
+- Setup WebApp resource deployment from GitHub
+
+Create WebApp Resource (called 'Disaplan-CoreApi', in EuropeWest, with ResourceGroup 'Disaplan-CoreApi')
+- add WebApp resource app-setting of PROJECT=CoreApi\CoreApi\CoreApi.csproj
+- Setup CoreApi resource deployment from GitHub
 
 Proposal
 --------
