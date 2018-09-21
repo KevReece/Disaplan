@@ -168,6 +168,7 @@
     <Content Include="bin\System.Web.WebPages.Deployment.dll" />
     <Content Include="bin\System.Web.WebPages.dll" />
     <Content Include="bin\System.Web.WebPages.Razor.dll" />
+    <Content Include="Content\InternalSite.css" />
     <Content Include="Content\Site.css" />
     <Content Include="Global.asax" />
     <Content Include="Images\about-mission.jpg" />
@@ -300,6 +301,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Shared\_InternalLayout.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
