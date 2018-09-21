@@ -1,6 +1,6 @@
 User Epic:
 
-CoreAPI - (deploy/use from web/lockdown access)
+CoreAPI - (use from web/lockdown access)
 
 logging - (local for web/prod/copy to shared public location/same for core)
 UserAPI - (skeleton/deploy/user endpoint/use from coreapi/create db/use db)
