@@ -1,6 +1,5 @@
 User Epic:
 
-bootstrap - (favicon)
 CoreAPI - (deploy/use from web/lockdown access)
 
 logging - (local for web/prod/copy to shared public location/same for core)
