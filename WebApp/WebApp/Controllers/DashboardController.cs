@@ -8,9 +8,9 @@ namespace Disaplan.WebApp.Controllers
     {
         private readonly CoreApi coreApi;
 
-        public DashboardController()
+        public DashboardController(CoreApi coreApi)
         {
-            this.coreApi = new CoreApi();
+            this.coreApi = coreApi;
         }
 
         public ActionResult Index()
