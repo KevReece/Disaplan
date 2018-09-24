@@ -1,4 +1,5 @@
 ﻿using System.Web.Http;
+using Disaplan.CoreApi.Models;
 
 namespace Disaplan.CoreApi.Controllers
 {
@@ -7,7 +8,7 @@ namespace Disaplan.CoreApi.Controllers
         [HttpGet]
         public IHttpActionResult Get(string id)
         {
-            return Ok("Kev Reece");
+            return Ok(new User{Name = "Kevster"});
         }
     }
 }
