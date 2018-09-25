@@ -45,6 +45,12 @@ Create WebApp Resource (called 'Disaplan-CoreApi', in EuropeWest, with ResourceG
 - Setup CoreApi resource deployment from GitHub
 - set Application Setting "Environment" as "Production"
 
+View logs
+---------
+Use FTP
+- FTP server is in azure portal characteristics/attributes for app service
+- FTP username/password is in the deployment centre registration information
+
 Proposal
 --------
 Fitness training plan app/site.
