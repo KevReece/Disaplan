@@ -1,4 +1,5 @@
-﻿using System.Web.Http;
+﻿using System.Diagnostics;
+using System.Web.Http;
 using Disaplan.CoreApi.Models;
 
 namespace Disaplan.CoreApi.Controllers
@@ -8,6 +9,7 @@ namespace Disaplan.CoreApi.Controllers
         [HttpGet]
         public IHttpActionResult Get(string id)
         {
+            Trace.TraceInformation($"Call to: {nameof(UserController)}.{nameof(Get)}(Id='{id}')");
             return Ok(new User{Name = "Kevster"});
         }
     }

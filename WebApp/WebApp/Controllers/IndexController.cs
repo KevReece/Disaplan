@@ -1,4 +1,5 @@
-﻿using System.Web.Mvc;
+﻿using System.Diagnostics;
+using System.Web.Mvc;
 
 namespace Disaplan.WebApp.Controllers
 {
@@ -6,6 +7,7 @@ namespace Disaplan.WebApp.Controllers
     {
         public ActionResult Index()
         {
+            Trace.TraceInformation($"Call to: {nameof(IndexController)}.{nameof(Index)}");
             return View();
         }
     }

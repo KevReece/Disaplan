@@ -1,6 +1,5 @@
 User Epic:
 
-logging - (local for web/prod/same for core)
 UserAPI - (skeleton/deploy/user endpoint/use from coreapi/create db/use db)
 create new user
 reactjs
